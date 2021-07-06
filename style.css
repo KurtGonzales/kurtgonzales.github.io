@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: hsl(233, 47%, 7%);
+    margin: 80px;
+}
+
+/* CARD */
+.card {
+   display: flex;
+   background: hsl(244, 38%, 16%);
+   height: 73vh;
+   margin: 100px auto;
+   border-radius: 14px;
+}
+
+/* LEFT CONTENT */
+.left-content h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 40px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.left-content #p1 {
+    text-align: justify;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin: 50px;
+    margin-top: -40px;
+}
+
+.stats {
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.stats h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.7rem;
+}
+
+.stats p {
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+}
+
+/* RIGHT CONTENT IMAGE */
+.right-content {
+    background-color: hsl(277, 64%, 61%);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.right-content img {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    opacity: 0.5;
+}
+/* ATTRIBUTION */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+ 
