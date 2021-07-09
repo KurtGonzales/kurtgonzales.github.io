@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.top_container h1 {
+    text-align: center;
+    font-size: 3em;
+    color: hsl(300, 43%, 22%);
+    margin-top: 100px;
+}
+
+.top_container p {
+    text-align: center;
+    line-height: 1.5em;
+    color: hsl(303, 10%, 53%);
+    font-size: 1.6em;
+    margin-top: 40px;
+}
+
+.middle_container {
+  text-align: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin: 40px;
+  height: 15vh;
+}
+
+.middle_container img {
+    padding-top: 20px;
+}
+
+.middle_container h3 {
+    color:  hsl(300, 43%, 22%);
+    padding-top: 10px;
+}
+
+.bottom_container {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 40px;
+    height: 50vh;
+}
+
+.bottom_container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.bottom_container h3 {
+    text-align: center;
+    margin-top: -55px;
+    margin-right: 40px;
+    color: hsl(0, 0%, 100%);
+}
+
+.bottom_container h4 {
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 2px;
+    color: hsl(333, 80%, 67%);
+}
+
+.bottom_container p {
+    margin: 40px;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media(min-width: 1000px) {
+    .top_main {
+        width: 50%;
+        font-size: 0.9em;
+    }
+
+    .middle {
+        margin-top: -350px;
+        width: 50%;
+        float: right;
+    }
+
+    .middle_container {
+        width: 75%;
+        height: 10vh;
+        font-size: 0.8em;
+    }
+
+    .middle_container img {
+        float: left;
+        margin-left: 15px;
+    }
+
+    .middle_container h3 {
+        padding: 15px;
+    }
+
+    .bottom {
+       display: flex;
+    }
+
+    .bottom_container h3 {
+       margin-left: 40px;
+    }
+    .bottom_container h4 {
+        margin-left: 40px;
+     }
+ 
+
+}
