@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+    margin-top: -50px;
+    font-size: 2.9em;
+    color:  hsl(210, 10%, 33%);
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 50px;
+    color:  hsl(210, 10%, 33%);
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    color:  hsl(201, 11%, 66%);
+}
+
+.top {
+    text-align: center;
+}
+
+.top-content img {
+    padding: 120px;
+}
+
+button {
+    display: block;
+    margin-top: 30px;
+    margin-left: 110px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 8vh;
+}
+
+#btn-2 {
+    margin-top: 20px;
+    background-color: hsl(233, 100%, 69%);
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.top-after {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.top-after-content img {
+    height: 50vh;
+    padding: 50px;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.middle-content img {
+    height: 50vh;
+    padding: 50px;
+}
+
+.middle-content #icon {
+    height: 25vh;
+    margin-bottom: -50px;
+}
+
+.middle-logo {
+    margin-top: 150px;
+}
+.middle-logo img {
+   display: block;
+   margin-top: 50px;
+   margin-left: 150px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.bottom-after {
+    text-align: center;
+    background-color: #F5F6F8;
+    margin-top: 150px;
+}
+
+#faqlogo {
+    padding: 30px;
+    height: 20vh;
+}
+
+.bottom-after-content ul {
+    line-height: 2em;
+    font-size: 1.3em;
+    color:   hsl(210, 10%, 33%);
+}
+
+.socmed img {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+ .attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1000px) {
+   p {
+      width: 50%;
+      margin-left: 300px;
+      font-size: 1.2em;
+  }
+
+  .top-content .buttons {
+      display: flex;
+  }
+
+  .buttons button {
+    width: 20%;
+    margin-left: 330px;
+  }
+
+  .buttons #btn-2 {
+      width: 20%;
+      margin-top: 27px;
+      margin-left: 50px;
+  }
+
+  .bottom-content .buttons {
+      display: flex;
+  }
+
+  .top-after-content img {
+      float: left;
+      height: 100vh;
+      margin-left: -100px;
+  }
+
+  #h2-left {
+      text-align: left;
+      font-size: 2em;
+  }
+
+  .top-after-content #p-2 {
+      text-align: left;
+  }
+
+  .middle-content #device {
+      height: 80vh;
+  }
+
+ .middle-in {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .mid-imgs {
+     grid-column: 1;
+     text-align: center;
+ }
+
+ .mid-imgs-2 {
+     grid-column: 2;
+
+ }
+
+ .mid-imgs-3 {
+     grid-column: 3;
+ }
+
+ .mid-imgs #p-1 {
+     text-align: center;
+     font-size: 1em;
+     margin-left: 90px; 
+ }
+
+ .mid-imgs-2 #p-2 {
+    text-align: center;
+    font-size: 1em;
+    margin-left: 90px; 
+ }
+
+ .mid-imgs-3 #p-3 {
+    text-align: center;
+    font-size: 1em;
+    margin-left: 90px; 
+ }
+  
+.logo {
+      display: flex;
+  }
+
+.logo img {
+      margin-right: -80px;
+  }
+
+.bottom-after-content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+  }
+  
+  ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: left;
+  }
+
+  li {
+      list-style: none;
+  }
+ 
+}
