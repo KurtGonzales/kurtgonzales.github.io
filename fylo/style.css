@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background:hsl(217, 28%, 15%);
+}
+
+img {
+    height: 7vh;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+ul {
+    float: right;
+}
+li {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color:  hsl(0, 0%, 100%);
+}
+
+li:hover {
+    background: white;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.navigation-bg {
+    background-image: url('./images/illustration-intro.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    margin: 70px;
+}
+
+.body {
+    background-image: url('./images/bg-curvy-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.body-content h1 {
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    line-height: 1.5em;
+}
+
+.body-content p {
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+
+.body-content #btn-1 {
+    background-color: hsl(176, 68%, 64%);
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    height: 8vh;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.body-content #btn-1:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1);
+}
+
+.feature-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.feature-content img {
+    height: 15vh;
+}
+
+.feature-content h2 {
+    margin-top: 20px;
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.feature-content p {
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+}
+
+.location {
+    margin-top: 150px;
+}
+
+.location img {
+    height: 50vh;
+}
+
+.location h2 {
+    margin-top: 40px;
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.location p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3em;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.9;
+}
+
+a { 
+    color: hsl(176, 68%, 64%);
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#logo {
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 300px;
+}
+
+.testimonies {
+    margin-top: 150px;
+}
+
+.quote {
+    margin-right: 340px;
+    margin-bottom: -50px;
+    height: 10vh;
+}
+
+.profile-1 {
+    background-color: hsl(219, 30%, 18%);
+    height: 30vh;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.profile-1 p {
+    text-align: left;
+    padding: 20px;
+    color:  hsl(0, 0%, 100%);
+    opacity: 0.8;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.profile-1 img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.profile-1 h3 {
+    text-align: left;
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    padding-left: 70px;
+}
+
+.profile-1 h4 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    padding-left: 70px;
+    font-size: 0.8em;
+}
+
+.profile-2 {
+    background-color: hsl(219, 30%, 18%);
+    height: 30vh;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.profile-2 p {
+    text-align: left;
+    padding: 20px;
+    color:  hsl(0, 0%, 100%);
+    opacity: 0.8;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.profile-2 img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.profile-2 h3 {
+    text-align: left;
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    padding-left: 70px;
+}
+
+.profile-2 h4 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    padding-left: 70px;
+    font-size: 0.8em;
+}
+
+.profile-3 {
+    background-color: hsl(219, 30%, 18%);
+    height: 30vh;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.profile-3 p {
+    text-align: left;
+    padding: 20px;
+    color:  hsl(0, 0%, 100%);
+    opacity: 0.8;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.profile-3 img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.profile-3 h3 {
+    text-align: left;
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    padding-left: 70px;
+}
+
+.profile-3 h4 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    padding-left: 70px;
+    font-size: 0.8em;
+}
+
+.sign-up {
+    margin-top: 200px;
+}
+
+.sign-content {
+    background-color: hsl(217, 28%, 15%);
+    height: 60vh;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.sign-content h3 {
+    padding: 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+}
+
+.sign-content p {
+    color: hsl(0, 0%, 100%);
+    opacity: 0.9;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 90%;
+    border: none;
+}
+
+#btn-2 {
+    margin-left: 2px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 90%;
+    border: none;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+}
+
+#btn-2:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1);
+}
+
+.about-us {
+    background-color:  hsl(216, 53%, 9%);
+}
+
+.main-logo img {
+    display: flex;
+    height: 14vh;
+    margin: 50px;
+}
+
+#logos {
+    display: flex;
+    height: 3vh;
+}
+
+.ab-content #p1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 30px;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.ab-content #p2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 30px;
+    margin-left: 40px;
+    margin-top: -24px;
+}
+
+.ab-content #p3 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 30px;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+.information-1 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 15px;
+    line-height: 2em;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.social-media {
+    padding: 40px;
+    margin-right: 50px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1000px) {
+.navigation-bg {
+    height: 50vh;
+    width: 50%;
+    margin: 100px;
+    margin-left: 250px;
+    padding: 230px;
+}
+
+.body {
+    background-image: url('./images/bg-curvy-desktop.svg');
+}
+
+.body-content {
+    width: 50%;
+    margin-left: 310px;
+}
+
+.feature-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 300px;
+    grid-gap: 100px;
+    grid-row-gap: 50px;
+}
+
+.location img {
+    float: left;
+    margin-left: 120px;
+}
+
+.location h2 {
+    text-align: left;
+    width: 80%;
+}
+
+a {
+    margin-left: 2px;
+}
+#logo {
+    padding-right: 170px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.quote {
+    text-align: left;
+    margin-left: 40px;
+}
+.profiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sign-up {
+    width: 75%;
+    margin-left: 150px;
+}
+
+.sign-up h3 {
+    padding: 40px;
+}
+form {
+    display: flex;
+    margin-top: 50px;
+    margin: 30px;
+}
+
+input {
+    height: 10vh;
+    border-radius: 30px;
+}
+
+#btn-2 {
+    width: 30%;
+    border-radius: 70px;
+    height: 10vh;
+}
+
+.about-us {
+    display: flex;
+}
+
+}
