@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 25px;
+}
+
+h1 {
+    padding: 10px;
+    margin-top: -15px;
+    margin-left: 10px;
+    font-family: 'Big Shoulders Display';
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+p {
+    padding: 15px;
+    line-height: 1.3em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    padding: 13px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: -5px;
+    border-radius: 20px;
+    width: 130px;
+    border: none;
+    background-color:  hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+button:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1);
+}
+
+#btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#btn-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.columns {
+    margin: 30px;
+    margin-left: 115px;
+}
+
+.column-1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 55vh;
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.column-2 {
+    background-color: hsl(184, 100%, 22%);
+    height: 55vh;
+    width: 80%;
+}
+
+.column-3 {
+    background-color: hsl(179, 100%, 13%);
+    height: 55vh;
+    width: 80%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 1000px) {
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .column-1 {
+        height: 80vh;
+        margin-left: 77px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .column-2 {
+        height: 80vh;
+    }
+
+    .column-3 {
+        height: 80vh;
+        margin-left: -77px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    h1 {
+        padding: 50px;
+    }
+
+    p {
+        text-align: left;
+        padding: 20px;
+        margin-top: -40px;
+        line-height: 1.5em;
+    }
+
+    button {
+        margin-top: 80px;
+    }
+}
