@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=Overpass:wght@300;600&family=Ubuntu:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.top span {
+    border-bottom: 1px solid white;
+}
+
+.hamburger img {
+    visibility: hidden;
+}
+
+nav {
+    background-color: lightgray;
+    margin-top: -50px;
+    height: 95vh;
+    width: 100%;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    margin-right: -160px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.nav-links ul {
+    margin-top: 45px;
+    margin-left: 150px;
+}
+
+.login-btn {
+    display: flex;
+    margin-left: -160px;
+}
+
+.login {
+    margin-top: 54px;
+    margin-right: 20px;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 13.8%;
+    left: 5%;
+}
+
+.nav-links ul {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-links ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-links ul li:hover {
+    transform: scale(1.1);
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn button {
+    text-transform: capitalize;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn button:hover,
+.btn-2 button:hover {
+    opacity: 0.7;
+}
+
+.flex-header {
+    display: flex;
+}
+
+.slogan {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.slogan h1 {
+    font-size: 2.9rem;
+    margin-bottom: 15px;
+}
+
+.slogan p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    opacity: 0.6;
+
+}
+
+.checks {
+    display: flex;
+    padding: 5px;
+    margin-left: -10px;
+}
+
+.checks p {
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+.flex-form {
+    display: flex;
+}
+
+.form input {
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn-2 button {
+    margin-left: -40px;
+    text-transform: capitalize;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.flex-img img {
+    width: 50%;
+    margin-left: 270px;
+}
+
+.icons {
+    display: flex;
+    margin: 50px;
+}
+
+.icons img {
+    width: 90%;
+    padding: 10px;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.flex-banner {
+    display: flex;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.banner {
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.banner h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    opacity: 0.6;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.banner a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid gray;
+    opacity: 0.7;
+}
+
+.banner-img img {
+    width: 200%;
+    margin-left: -380px;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.content-img img {
+    width: 60%;
+    margin-left: 10px;
+}
+
+.editor {
+    margin-top: 150px;
+    margin-left: -500px;
+    margin-right: 100px;
+}
+
+.editor h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.editor p {
+    opacity: 0.6;
+    line-height: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.editor a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid gray;
+    opacity: 0.7;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5 {
+    margin: 30px;
+}
+
+.grid-1 h3,
+.grid-2 h3,
+.grid-3 h3,
+.grid-4 h3,
+.grid-5 h3 {
+    margin-bottom: 15px;
+}
+
+.grid-1 p,
+.grid-2 p,
+.grid-5 p {
+    opacity: 0.6;
+}
+
+.grid-4 ul li,
+.grid-3 ul li {
+    list-style: none;
+    opacity: 0.6;
+    margin: 10px;
+    margin-left: 1px;
+}
+
+@media(max-width: 800px ) {
+    nav {
+        height: 150vh;
+    }
+    .logo a {
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+
+    .nav-links {
+        margin-left: -100px;
+    }
+
+    .login a {
+        margin-left: -60px;
+    }
+
+    .btn button {
+        margin-right: 70px;
+    }
+
+    .flex-img img {
+        display: none;
+    }
+
+    .flex-header {
+        background-image: url('./Assets/Hero\ Image\ \(Tablet\).png');
+        width: 95%;
+        background-size: contain;
+        background-position-x: 30px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .slogan {
+        margin-top: 400px;
+        margin-left: 30px;
+    }
+
+    .reddit,
+    .google,
+    .slack {
+        display: none;
+    }
+
+    .banner-img img {
+        display: none;
+    }
+
+    .flex-banner {
+        background-image: url('./Assets/Phone\ Mockup\ \(Tablet\).png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 250px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-img img {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .editor {
+        margin-left: 50px;
+    }
+
+    .grid-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 550px) {
+    nav {
+        height: 195vh;
+    }
+
+    .hamburger img {
+        visibility: visible;
+        position: absolute;
+        top: 22%;
+        left: 90%;
+        cursor: pointer;
+    }
+
+    .logo a {
+        margin-top: 45px;
+    }
+
+    .flex-nav {
+        visibility: hidden;
+    }
+
+    .flex-nav.show-nav {
+        visibility: visible;
+        margin-bottom: 250px;
+    }
+
+
+    .flex-nav ul {
+        margin-top: 80px;
+        margin-left: -10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-header {
+        background-image: url('./Assets/Hero\ Image\ \(Mobile\).png');
+        margin-top: -200px;
+    }
+
+    .login-btn {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        margin-left: -470px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        margin-left: -150px;
+    }
+
+    .login a {
+        margin-left: -136px;
+    }
+
+    .slogan {
+        margin-top: 500px;
+    }
+
+    .slogan h1 {
+        font-size: 2.6rem;
+    }
+
+    .pinterest,
+    .twitter {
+        display: none;
+    }
+
+    .flex-banner {
+        background-image: url('./Assets/Phone\ Mockup\ \(Mobile\).png');
+    }
+
+    .banner {
+        margin-left: 60px;
+    }
+
+    .grid-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "spense spense"
+        "company opportunities"
+        "sitemap resources";
+    }
+
+    .grid-1 {
+        grid-area: spense;
+    }
+
+    .grid-2 {
+        grid-area: sitemap;
+    }
+
+    .grid-4 {
+        grid-area: company;
+    }
+
+    .grid-5 {
+        grid-area: opportunities;
+    }
+
+
+    
+}
