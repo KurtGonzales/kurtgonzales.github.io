@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Prata&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: "Prata", serif;
+    font-family: "Inter", sans-serif;*/
+}
+
+body {
+    background-color: #000;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.hamburger {
+    visibility: hidden;
+}
+
+.logo {
+    margin-top: 2px;
+}
+
+.logo a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Prata", serif;
+    font-size: 1.2rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.links ul {
+    display: flex;
+    margin-right: 260px;
+}
+
+.links ul li {
+    list-style: none;
+    padding: 10px;
+    color: #adadad;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.links ul li:hover {
+    transform: scale(1.2);
+}
+
+.btn button {
+    padding: 10px;
+    width: 80%;
+    margin-right: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbe850;
+    font-family: "Prata", serif;
+    font-weight: 500;
+}
+
+.btn button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.banner {
+    margin: 50px;
+    margin-top: 100px;
+    margin-left: 85px;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-family: "Prata", serif;
+}
+
+.banner p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    width: 65%;
+    color: #adadad;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.flex-container-2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.spense img,
+.yelp img {
+    height: 41vh;
+}
+
+.spense h2,
+.yelp h2 {
+    font-family: "Prata", serif;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 10px;
+
+}
+.spense p,
+.yelp p {
+    color: #adadad;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    line-height: 1.5rem;
+    margin-top: 10px;
+
+}
+
+.flex-container-3 {
+    display: flex;
+    margin-top: 50px;
+    background-color: #2e3038;
+}
+
+.left {
+    margin: 50px;
+    margin-left: 80px;
+}
+
+.right {
+    margin: 50px;
+}
+
+.left h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.left p {
+    color: #adadad;
+    margin-top: 10px;
+}
+
+.right p {
+    color: #adadad;
+    margin-top: 20px;
+}
+
+.interested {
+    color: #fff;
+    margin: 50px;
+    margin-left: 75px;
+}
+
+.interested h2 {
+    font-size: 2.2rem;
+    font-family: "Prata", serif;
+}
+
+.interested p {
+    font-family: "Inter", sans-serif;
+    color: #adadad;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-top: 5px;
+}
+
+.btn-2 button {
+    padding: 10px;
+    width: 13%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fbe850;
+    font-family: "Prata", serif;
+    font-weight: 500;
+}
+
+.btn-2 button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.flex-container-4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e3038;
+}
+
+.logo-2 {
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.logo-2 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Prata", serif;
+    font-size: 1.2rem;
+}
+
+.socmed {
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.socmed img {
+    padding: 5px;
+}
+
+@media(max-width: 800px) {
+    .logo a {
+        margin-left: -18px;
+    }
+    .nav-links {
+        visibility: hidden;
+    }
+
+    .nav-links.show-nav {
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: -70px;
+    }
+
+    .links ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn button {
+        width: 30%;
+        margin-left: -10px;
+    }
+
+    .hamburger img {
+        visibility: visible;
+        cursor: pointer;
+    }
+    
+    .banner {
+        margin: 40px;
+        margin-top: -100px;
+    }
+
+    .banner p {
+        width: 100%;
+    }
+
+    .icons {
+        width: 70%;
+        margin-left: 100px;
+    }
+
+    .icons img {
+        margin: 20px;
+    }
+    
+    .flex-container-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spense img,
+    .yelp img {
+        height: 57vh;
+        margin-left: -40px;
+    }
+
+    .spense h2,
+    .yelp h2 {
+        margin-left: -40px;
+    }
+
+    .spense p,
+    .yelp p {
+        margin-left: -40px;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    .flex-container-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 50px;
+    }
+
+    .right {
+        margin-top: -20px;
+    }
+
+    .btn-2 button {
+        width: 20%;
+    }
+}
+
+@media(max-width: 550px) {
+    .logo a {
+        position: absolute;
+        left: 10%;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .hamburger {
+        margin-left: -150px;
+    }
+    
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .icons {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .spense img,
+    .yelp img {
+        height: 40vh;
+        margin-left: -75px;
+    }
+
+    .spense h2,
+    .yelp h2 {
+        margin-left: -75px;
+    }
+
+    .spense p,
+    .yelp p {
+        margin-left: -75px;
+        width: 115%;
+    }
+    
+    .left,
+    .right {
+        margin-left: 20px;
+    }
+
+    .interested {
+        margin-left: 20px;
+    }
+
+    .btn-2 button {
+        width: 30%;
+    }
+
+    .logo-2 a {
+        margin-left: -50px;
+    }
+}
