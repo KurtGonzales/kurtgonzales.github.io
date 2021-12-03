@@ -1,0 +1,654 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    background-color: #fbf8f3;
+    height: 125vh;
+}
+
+.hamburger img {
+    visibility: hidden;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: #00acee;
+}
+
+.nav-links {
+    display: flex;
+    margin: 50px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+.links ul li {
+    margin-right: 60px;
+    color: #737b87;
+    font-weight: 500;
+}
+
+.links ul li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.btn button {
+    margin-top: -20px;
+    background-color: #00acee;
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn i,
+.btn-2 i,
+.btn-3 i {
+    color: white;
+    margin-right: 8px;
+}
+
+.btn button:hover,
+.btn-2 button:hover,
+.btn-3 button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.nav-content {
+    display: flex;
+}
+
+.slogan {
+    margin: 50px;
+}
+
+.slogan h1 {
+    font-size: 3.4rem;
+}
+
+.slogan p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    width: 122%;
+    color: #737b87;
+}
+
+.btn-2 {
+    margin-top: 10px;
+}
+
+.btn-2 button {
+    background-color: #00acee;
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-2 a {
+    text-decoration: none;
+    color: #5592a9;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.avatars {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 210px;
+}
+.avatar {
+    margin-left: -20px;
+}
+
+.avatar-2,
+.avatar-3,
+.avatar-4,
+.avatar-5,
+.avatar-6,
+.avatar-7,
+.avatar-8,
+.avatar-9 {
+    margin-left: -20px;
+}
+
+.avatar-p span {
+    color: #5592a9;
+    font-weight: 600;
+}
+
+.slogan-img img {
+    width: 60%;
+    margin-left: 230px;
+}
+
+.tablet {
+    display: none;
+}
+
+.feature-section {
+    margin: 50px;
+}
+
+.feature h2 {
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4 {
+    border: 1px solid #737b87;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.grid-1 h3,
+.grid-2 h3,
+.grid-3 h3,
+.grid-4 h3 {
+    margin-top: 10px;
+}
+
+.grid-1 p,
+.grid-2 p,
+.grid-3 p,
+.grid-4 p {
+    margin-top: 10px;
+    color: #737b87;
+}
+
+#analytics,
+#smart,
+#tweet,
+#dark {
+    font-size: 2rem;
+}
+
+.twt-section {
+    background-color: #d9f5f5;
+    display: flex;
+}
+
+.tweets,
+.tweets-2,
+.tweets-3 {
+    width: 65%;
+    padding: 40px;
+}
+
+.tweets h3 {
+    margin-left: 50px;
+    font-size: 2rem;
+}
+
+.tweet-1 {
+   margin: 50px;
+   padding: 40px;
+   background-color: #fff;
+   width: 75%;
+   border-radius: 5px;
+}
+
+.tweet-2 {
+   margin: 50px;
+   margin-top: 90px;
+   margin-left: -130px;
+   padding: 40px;
+   background-color: #fff;
+   height: 45vh;
+   width: 130%;
+   border-radius: 5px;
+}
+
+.tweets-3 {
+    margin: 50px;
+    margin-top: 130px;
+    margin-left: -65px;
+    padding: 40px;
+    background-color: #fff;
+    height: 37.5vh;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.tweet-1-flex,
+.tweet-2-flex,
+.tweet-3-flex {
+    display: flex;
+}
+
+.tweet-3-flex img {
+    margin-right: 10px;
+}
+
+.name,
+.name-2 {
+    margin-left: 20px;
+}
+
+.name-3 {
+    margin-right: -200px;
+}
+
+.name p,
+.name-2 p {
+    color: #737b87;
+}
+
+.twt-logo img {
+    margin-left: 90px;
+}
+
+.twt-logo-2 img {
+    margin-left: 120px;
+}
+
+.twt-logo-3 img {
+    margin-left: 290px;
+}
+
+.twt-p,
+.twt-p-2,
+.twt-p-3 {
+    margin-top: 10px;
+    color: #737b87;
+    line-height: 1.5rem;
+}
+
+.like,
+.like-2,
+.like-3 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.like span,
+.like-2 span,
+.like-3 span {
+    color: #737b87;
+    margin-left: 2px;
+}
+
+.date {
+    margin-left: 110px;
+    color: #737b87;
+}
+
+.date-2 {
+    margin-left: 165px;
+    color: #737b87;
+}
+
+.date-3 {
+    margin-left: 120px;
+    color: #737b87;
+}
+
+.price {
+    margin: 50px;
+    margin-left: 450px;
+}
+
+.simple {
+    text-align: center;
+    margin-left: -400px;
+}
+
+.simple h2 {
+    font-size: 2rem;
+}
+
+.simple p {
+    margin-top: 10px;
+    color: #737b87;
+}
+
+.card {
+    margin-top: 40px;
+    margin-left: -40px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #faf8f2;
+    border: 1px solid #ffad23;
+}
+
+.card-info {
+    margin: 20px;
+}
+
+.card-info h3 {
+    color: #737b87;
+    font-weight: normal;
+}
+
+.card-info h4 {
+    font-size: 2.2rem;
+}
+
+.card-info span {
+    font-size: 1rem;
+    color: #737b87;
+}
+
+.border {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #737b87;
+    width: 100%;
+}
+
+.checks {
+    display: flex;
+    padding: 5px;
+}
+
+.checks p {
+    color: #737b87;
+    margin-left: 8px;
+}
+
+.btn-3 button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00acee;
+    color: white;
+}
+
+footer {
+    background-color: #d9f5f5;
+    
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy ul {
+    display: flex;
+    list-style: none;
+    margin: 40px;
+}
+
+.privacy ul li {
+    margin-left: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.logo-2 {
+    margin: 40px;
+}
+
+.logo-2 a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: #00acee;
+}
+
+.black-logo img {
+    margin: 40px;
+    margin-left: 630px;
+    margin-right: -190px;
+}
+
+
+@media(max-width: 800px) {
+    nav {
+        height: 175vh;
+    }
+
+    .nav-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .slogan-img {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .tablet img {
+        width: 95%;
+        margin-left: 20px;
+    }
+
+    .slogan {
+        margin-left: 20px;
+    }
+
+    .slogan p {
+        width: 90%;
+    }
+
+    .avatars {
+        margin-right: 470px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tweets h3 {
+        width: 100%;
+    }
+
+    .tweets {
+        margin-top: 42px;
+    }
+
+    .tweet-2 {
+        margin-top: 130px;
+    }
+
+    .card {
+        margin-left: -270px;
+        width: 150%;
+    }
+
+    .black-logo {
+        margin-left: -150px;
+    }
+
+    .black-logo img {
+        margin-left: 300px;
+    }
+}
+
+@media(max-width: 550px) {
+    nav {
+        height: 235vh;
+    }
+
+    .hamburger img {
+        visibility: visible;
+        margin-top: 50px;
+        margin-left: 270px;
+        cursor: pointer;
+    }
+
+    .nav-links.show-nav {
+        visibility: visible;
+        margin-bottom: 200px;
+    }
+
+    .nav-links {
+        visibility: hidden;
+        margin-top: 80px;
+        margin-left: -250px;
+        margin-right: 300px;
+        display: block;
+    }
+
+    .links ul {
+        display: block;
+        padding: 15px;
+    }
+
+    .links ul li {
+        padding: 5px;
+    }
+
+    .btn {
+        margin-left: -40px;
+    }
+
+    .tablet img {
+        display: none;
+    }
+
+    .slogan-img {
+        margin-top: -160px;
+        display: block;
+    }
+
+    .slogan-img img {
+        width: 85%;
+        margin-left: 40px;
+    }
+
+    .slogan p {
+        width: 80%;
+    }
+
+    .btn-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-2 button {
+        font-size: 1rem;
+    }
+
+    .btn-2 a {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .avatars {
+        margin-left: 250px;
+    }
+
+    .avatar-p p {
+        width: 110%;
+    }
+
+    .twt-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tweet-1 {
+        width: 150%;
+        margin-left: 20px;
+    }
+
+    .tweet-2 {
+        width: 150%;
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+
+    .tweets-3 {
+        width: 72%;
+        margin-top: -55px;
+        margin-left: 62px;
+    }
+
+    .twt-logo-2 img {
+        margin-left: 85px;
+    }
+
+    .like-2 {
+        margin-top: 10px;
+    }
+
+    .date-2 {
+        margin-left: 115px;
+    }
+
+    .date-3 {
+        margin-left: 100px;
+    }
+
+    .name-3 {
+        margin-left: -9px;
+    }
+
+    .tweets h3 {
+        width: 150%;
+        margin-left: 20px;
+    }
+
+    .price {
+        width: 40%;
+    }
+
+    .simple {
+        margin-left: -600px;
+    }
+
+    .card {
+        margin-left: -350px;
+    }
+
+    .flex-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black-logo {
+        margin-top: -60px;
+        margin-left: -270px;
+    }
+
+    .privacy ul {
+        margin-top: -65px;
+        margin-left: 60px;
+    }
+}
+
+
